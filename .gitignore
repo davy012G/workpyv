@@ -1,0 +1,12 @@
+# --- Executables & Binaries ---
+*.out
+*.exe
+*.o
+*.obj
+*.so
+*.a
+*.dll
+
+__pycache__/
+.dub/
+

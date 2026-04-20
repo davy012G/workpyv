@@ -21,3 +21,7 @@ is, most of the times, the real trophy
 i can do them as long as I learn from my mistakes and move on cuz' the worst way to be a programmer is being afraid of mistakes [you're gonna see a lot of 
 bugs in your code - in my case I've seen hundreds of them (if I am being realistic) and you'll need to fix them so fear is not even an option... just run that
 code, see the errors and face them like the warrior you are].
+
+Okay cut to the chase we are trying to make a modified version of the original form. "Why?" you might ask, well the answer is as simple as the original was 
+completed but failed to reach all the requirements need for it to be effectively called a stable version plus it was not engineered properly so this modified
+version is more like a fixed or use-able version. It is the more practical version of the 3-year Python-based program called 'HelpBot'.

@@ -7,7 +7,7 @@ import random as r
 class Quiz:
 
 	def __init__(self, initial_number: int, final_number: int, number_of_questions: int) -> None:
-		\"""This is the object-oriented form of my Quiz format (test_phase)...\"""
+		#This is the object-oriented form of my Quiz format (test_phase)...
 		score = 0
 		print("Welcome to the My Quiz Game")
 
@@ -56,7 +56,8 @@ class Quiz:
 			answer = int(string)
 		except ValueError:
 			answer = default
-		\"""
+
+		#Doc
 		#answer = 0 --> This variable was created solely for this one purpose
 			for s in string:
 				for no, u in enumerate(unIdentified):
@@ -64,7 +65,7 @@ class Quiz:
 						answer += no
 						break
 		#This is part of the function is not gonna help me  
-		\"""
+		#Doc
 
 		return answer
 	

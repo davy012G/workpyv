@@ -10,3 +10,7 @@
 __pycache__/
 .dub/
 
+original/origin/
+modified/test_env/
+modified/test_file.py
+modified/Jotter.txt

@@ -3,7 +3,7 @@
 
 import toolKit.customTools as c
 import games.tictactoe as ttt
-import toolKit.notes_beta as note
+#import toolKit.notes_beta as note
 import games.chess as chess
 import games.misc as misc
 import games.eyeTest as eyetest
@@ -214,7 +214,7 @@ class Main: #Fit all the FrontEnd into this class
         print("-"*15, "Exit", "-"*15)
 
     def welcomeUser(self):
-        match c.errorEvasion(input(WELCOME + "Enter in here: ")):
+        match c.errorEvasion(input(WELCOME + "Enter in here:" )):
             case 1:
                 self.gameLink()
             case 2:
@@ -320,12 +320,12 @@ class Main: #Fit all the FrontEnd into this class
     def workLink(self):
         #while True:
         match c.errorEvasion(input(WORK + "Enter a number: ")):
+            #case 1:
+                #note.Notes_Text()
             case 1:
-                note.Notes_Text()
-            case 2:
                 print(WORKBASE)
                 print("-I- WorkBase -I-")
-            case 3:
+            case 2:
                 print("-I- Advanced Calculator -I-")
             case _:
                 self.ending()
